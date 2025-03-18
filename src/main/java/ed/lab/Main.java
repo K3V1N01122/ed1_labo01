@@ -52,4 +52,28 @@ public class Main {
         tester.testSorting(randomArrayGenerator, randomPivotQuickSort, "Elemento aleatorio como pivote");
         System.out.println("================================");
     }
+
+    public static QuickSort<Integer> getHighPivotQuickSort() {
+        return highPivotQuickSort;
+    }
+
+    public static QuickSort<Integer> getLowPivotQuickSort() {
+        return lowPivotQuickSort;
+    }
+
+    public static QuickSort<Integer> getRandomPivotQuickSort() {
+        return randomPivotQuickSort;
+    }
+
+    public static ArrayGenerator<Integer> getSortedArrayGenerator() {
+        return sortedArrayGenerator;
+    }
+
+    public static ArrayGenerator<Integer> getInvertedArrayGenerator() {
+        return invertedArrayGenerator;
+    }
+
+    public static ArrayGenerator<Integer> getRandomArrayGenerator() {
+        return randomArrayGenerator;
+    }
 }
